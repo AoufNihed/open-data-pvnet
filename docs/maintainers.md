@@ -54,20 +54,4 @@ For detailed instructions on maintaining code quality and running tests, refer t
 
 ### 5. Eventually this repo will be on pypi.org ...stay tuned
 
-## Version Management
-
-The package version is maintained in a single location:
-- `src/open_data_pvnet/__init__.py`
-
-To update the version:
-1. Edit `__version__` in `src/open_data_pvnet/__init__.py`
-2. The version will be automatically picked up by setuptools through dynamic versioning
-
-Example:
-```python
-# In src/open_data_pvnet/__init__.py
-__version__ = "0.1.2"  # Update this value to change the package version
-```
-
-
 
